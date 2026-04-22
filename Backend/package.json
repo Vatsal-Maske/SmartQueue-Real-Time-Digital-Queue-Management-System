@@ -1,0 +1,29 @@
+{
+  "name": "smartqueue",
+  "version": "1.0.0",
+  "description": "Starting project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vatsal-Maske/SmartQueue-Real-Time-Digital-Queue-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vatsal-Maske/SmartQueue-Real-Time-Digital-Queue-Management-System/issues"
+  },
+  "homepage": "https://github.com/Vatsal-Maske/SmartQueue-Real-Time-Digital-Queue-Management-System#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "socket.io": "^4.8.3"
+  }
+}
